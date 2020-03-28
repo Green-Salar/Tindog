@@ -1,0 +1,56 @@
+
+All about BOOT STRAP:
+toozihate Installation is in another foler.
+Styling: Classes make the styles and they are all responsive. find them in documentation in bootstrap website.
+Styling: find your class from bootstrap duc then add it to the object class=" ... (+) you prefered new one "
+Nav Bar: from a link on codeply https://www.codeply.com/p/GVJU3ipWxP
+Grid system: Check it in boot strap .com / layouts / grid system
+Styling: with class naming or (not recommended style=""):bootstrap has best and easy class styling shortcodes try to use them to have responsive website OR for a little specificaiton : in html: <div class= " col ...."  style="background color= .."> ></div>
+Grid system: its boiler plate is in website.
+Grid System: divs of class=container--> row --> col
+Grid: class="col-6" width of row: 12 = 100% so class="col-6" is 50% of the row.
+Grid: class="col-lg-6" : 50% in larg screen(desketop) 100% in tablets and mobile- so in desktop 2 colume
+Grid: class="col-md-6" : 50% in desketop and in medium screen 50% (in tablet) and 100% inmobile
+Grid: class="col-lg-3 col-md-4 col-sm-6" in large screen 4 coloums in medium screen 3 coloums in small screen(mobile) 2 colom
+Grid: in the number of col-num choose it to be 100% in each screen size
+      for example for 6 coloum in a row class="col-lg-2 col-md-4 col-sm-12"
+Container: make your content horizontallu center and in bootstrap 4.4 you can see the automatickly reponsivity of  diff sizes
+Container: container has a little margin
+Container-fluid: got the full width of screen absoloutly.
+Styling: be sure that the stylesheet link in header of html be after the bootstrap link, because of line by line compiling of html.
+Button:
+Icon: https://fontawesome.com/ BEST! and FREE! . first embed the cdn (add the web down link to header) then copy the icon link to upload it automaticlly your link: <script src="https://kit.fontawesome.com/acf3c219cc.js" crossorigin="anonymous"></script>
+Commenting: comment to see what is happening later . highlite it then press Ctrl + /
+Color: #fff is white
+CSS: try to write css styles as they can be seen in the page and from less specefic to more specefic order !
+CSS styling commenting: comment each section ctrl+/
+Css Styling: check the web site from visitor view to see what You want to be seen first and the hierarchi you desire to achive in visitor view point.
+Css styling tips: try every component to be in a allignt line vertically to look beter.
+CSS tips: hierarchi in the visitor view is our purpose. the Font-size rem helps alot.
+
+Centerizing:: css text-align;center;
+line-hight: 1.5;     no other rem or anything
+Coloring: take care of text and each section color.
+image radios: border-radios=100% it will circlize the image.
+Group class writing. by using the package: Sublime STYLIE colum selector! didn't work.
+Play around: in codeply.com
+padding or margin and their place to embed are important.
+Bootstrap examples in its website works perfet. Copy the css in chrome web inspect tool
+Bootsnip perfect for free code examples!
+Positioning: by order of html code, the elements come further to top in Z mannar.
+Z-index: First: make the position relative or absolute to enable z-index to work.
+Z-index: by default z-index of elements are 0. and their position is static.
+Z-index: equal Z-indexes hierarchies are the same as their state in our html code.
+Z-index: Positioned element will be on the not positioned.
+Positioning: look at the pdf in the folder!
+Psitionning: at the end check every thing and make the padding that you prefer.
+Positioning: absolute positions can take the place from every where like right:30%;
+Href and ID: href can take #id in href and it will work on url too.
+Refactor your code each time you finish a big part to make it DRY. Readability -- Modularity -- efficiency then pay attention to lentgh.
+class specification in an ID: #title .container-fluid
+specification a class localy:#IDofSection .TheClass
+
+hierarchi selectors: Selector1 "space" Selector2{...} this targets all Selector2 (could be html elements, id or class) in selector1. Selector 2 is a child of slelector 1
+combined selector: selector1Slector2 (nospace) target an html element which has both (html element or clasess or id). it should be in 1 html element
+hierarchi: first Id then clases then elements
+Refactor your code every time possible and check it!

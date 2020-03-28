@@ -1,0 +1,180 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+  font-weight: 900;
+
+
+}
+p{
+  color: #8f8f8f;
+}
+
+/*-------------------- */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.color-section{
+    color: #fff;
+      background-color : #ff4c68;
+}
+.white-section{
+  background-color: #fff;
+}
+
+
+#title .container-fluid {
+  padding: 2% 15% 7%;
+  text-align: left;
+  color: #fff;
+}
+
+.big-headings{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-headings{
+
+}
+
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img{
+  position: absolute;
+  right: 23%;
+  width: 60%;
+  transform:rotate(20deg);
+
+}
+
+
+
+.under-title{
+
+}
+
+@media (max-width:990px) {
+  #title{ text-align: center;}
+  .title-img{
+    position: static;
+    transform:rotate(0);
+  }
+
+}
+#features{
+  z-index: 1;
+
+position: relative;
+}
+
+.feature-box{
+  padding: 5% 3% ;
+}
+.feature-icon{
+
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+.feature-title{
+ font-size: 1.25rem;
+ font-family: Montserrat;
+ font-weight: 900;
+}
+.feature-text{
+  font-size: .75rem
+  color: #8f8f8f;
+  }
+
+/* testimonial section */
+#testimonials{
+      background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15% 3%;
+}
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-images{
+  width:15% ;
+  margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding: 120px;
+}
+.pricing-amount{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+.pricing-head{
+  font-size: 1.25rem;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* CTA section Last One */
+#cta{
+  padding: 3% 15%;
+}
+
+/* Footer section  */
+#footer{
+  padding: 7% 7%;
+}
+.fab{
+  padding: 20px 10px;
+}
